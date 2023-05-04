@@ -10,6 +10,9 @@ import android.widget.GridView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.google.firebase.ktx.Firebase
+import com.google.firebase.storage.FirebaseStorage
+import com.google.firebase.storage.ktx.storage
 import gomez.abraham.mydigimind.R
 import gomez.abraham.mydigimind.databinding.FragmentHomeBinding
 import gomez.abraham.mydigimind.ui.Task
